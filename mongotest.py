@@ -1,8 +1,8 @@
 import pymongo
 
+
 client = pymongo.MongoClient("mongodb+srv://ineuron:admirer123@cluster0.txdcmqk.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
-
 print(db)
 
 d = {
